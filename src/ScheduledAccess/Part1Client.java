@@ -1,8 +1,8 @@
 package ScheduledAccess;
 
-public class Client {
+public class Part1Client {
     public static void main(String[] args) {
-        Proxy proxy = new Proxy();
+        Part1Proxy proxy = new Part1Proxy();
         proxy.doFirstTask();
         proxy.doSecondTask();
         proxy.doThirdTask();

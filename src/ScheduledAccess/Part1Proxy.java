@@ -4,10 +4,10 @@ import java.time.DayOfWeek;
 import java.time.LocalDateTime;
 import java.util.List;
 
-public class Proxy {
-    private final RealSubject realSubject;
-    public Proxy() {
-        this.realSubject = new RealSubject();
+public class Part1Proxy {
+    private final Part1RealSubject realSubject;
+    public Part1Proxy() {
+        this.realSubject = new Part1RealSubject();
     }
     private final int hourLowerBound = 8;
     private final int hourUpperBound = 17;

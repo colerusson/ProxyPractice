@@ -3,7 +3,7 @@ package ScheduledAccess;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RealSubject implements SubjectInterface {
+public class Part1RealSubject implements Part1SubjectInterface {
     @Override
     public void doFirstTask() {
         System.out.println("This is the first task.");

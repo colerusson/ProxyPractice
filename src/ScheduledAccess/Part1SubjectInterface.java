@@ -1,6 +1,6 @@
 package ScheduledAccess;
 
-public interface SubjectInterface {
+public interface Part1SubjectInterface {
     void doFirstTask();
     void doSecondTask();
     void doThirdTask();
